@@ -1,0 +1,232 @@
+/* 家电开始 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.phone{
+    height: auto;
+    width: 1226px;
+    margin: 0 auto;
+}
+.phone .top{
+    height: 58px;
+    width: auto;
+    line-height: 58px;
+    background-color: #F5F5F5;
+}
+.phone .top .git{
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+.phone .top .git:hover{
+    color: #FF6700;
+}
+/* bottom开始 */
+.phone .bottom{
+    height: 614px;
+    width: 100%;
+}
+.phone .bottom .box{
+    height: 300px;
+    width: 234px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    float: left;
+}
+.phone .bottom .box1{
+    height: 614px;
+    width: 234px;
+}
+.phone .bottom .box2{
+    margin-right: 0;
+}
+.phone .bottom .box .tbn img{
+    display: block;
+    margin: 18px auto;
+}
+.phone .bottom .box .tbn div{
+    width: 100%;
+    height:21px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-top: 34px;
+}
+.phone .bottom .box .tbn p{
+    width: 100%;
+    height:18px;
+    text-align: center;
+    font-size: 12px;
+    color:#D9C1B7;
+}
+.phone .bottom .box .tbn pre{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    color: red;
+    margin-top: 19px;
+}
+
+
+
+/* 家电整体 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+s{
+    color: #333;
+    font-size: 12px;
+}
+a{
+    text-decoration: #333;
+}
+.big{
+    height: auto;
+    width: 1226px;
+    margin: 0 auto;
+}
+/* 家电top */
+.big .top{
+    height: 58px;
+    width: auto;
+    line-height: 58px;
+    background-color: #F5F5F5;
+}
+.big .top .hot{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.big .top .hot:hover{
+    color: #ff6700;
+    cursor:pointer;
+    border-bottom: #FF6700 solid 2px;
+}
+/* 家电bottom */
+.big .bottom{
+    height: 614px;
+    width: auto;
+}
+/* bottom左 */
+.big .bottom .left{
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+.big .bottom .left .up{
+    width: 234px;
+    height: 300px;
+    background-color: blue
+}
+.big .bottom .left .down{
+    margin-top: 14px;
+}
+/* bottom右 */
+.big .bottom .right{
+    width: 992px;
+    height: 614px;
+    float:right;
+    background-color: #F5F5F5;
+}
+.big .bottom .right .box{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    padding: 34px 0px 20px 0px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+.big .bottom .right .box a span{
+    display: block;
+    text-align: center;
+    width: 214px;
+    height: 21px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    margin-top: 6px;
+}
+.big .bottom .right .box a p{
+    display: block;
+    width: 214px;
+    height: 18px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #B7B7CC;
+}
+.big .bottom .right .box a div{
+    display: block;
+    width: 214px;
+    height: 21px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+    color:#FF6700;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.big .bottom .right .box2{
+    width: 234px;
+    height: 143px;
+}
+.big .bottom .right .box3{
+    margin-bottom: 0;
+}
+.big .bottom .right .box img{
+    display: block;
+    margin: 0 auto;
+}
+/* 第8张 */
+.big .bottom .right .box4 .key img{
+    float: right;
+    width: auto;
+    height: auto;
+    margin-top: 31px;
+}
+.big .bottom .right .box4 .key{
+    width: 117px;
+    height: 143px;
+    float: left;
+}
+.big .bottom .right .box4 .keyarea{
+    float: right;
+}
+.big .bottom .right .box4 .key span{
+    margin-left: 32px;
+    font-size: 14px;
+    color: #333;
+}
+.big .bottom .right .box4 .key div{
+    margin-top: 15px;
+    margin-left: 32px;
+    font-size: 14px;
+    color:#FF6700;
+}
+/* 第九张 */
+.big .bottom .right .box5 img{
+    width: auto;
+    height: auto;
+    margin-bottom: 48px;
+    float: right;
+}
+.big .bottom .right .box5 .small{
+    width: 118px;
+    height: 86px;
+    float: left;
+}
+.big .bottom .right .box5 .small span{
+    margin-left: 32px;
+    font-size: 18px;
+}
+.big .bottom .right .box5 .small div{
+    margin-left: 32px;
+    font-size: 13px;
+}
+/* 家电结束 */
