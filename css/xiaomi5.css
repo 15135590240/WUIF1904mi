@@ -1,4 +1,123 @@
-/* 家电开始 */
+/* 页面顶端 */
+.ding{
+    background: #333;
+    width:auto;
+    height: auto;
+}
+.ding .hl{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+.ding .hl a{
+    color: #b0b0b0;
+    display: inline-block;
+    height: 40px;
+}
+/* 菜单 */
+.ding .hl .menu{
+    height: 40px;
+    width: auto;
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+}
+.ding .hl .menu span{
+    color: #424242;
+}
+/* 登陆 */
+.ding .hl .denglu{
+    height: 40px;
+    width: auto;
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+    margin-right: 26px;
+}
+.ding .hl .denglu span{
+    color: #424242;
+}
+/* 购物车 */
+.ding .hl .shopping{
+    width: 120px;
+    height: 40px;
+    color:#b0b0b0;
+    background-color: #333;
+    float: right;
+    font-size: 12px;
+}
+.ding .hl .shopping a{
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* 正文 */
+.page{
+    height: 100px;
+    width: 1226px;
+    margin: 0 auto;
+}
+.page .page1{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+}
+.page .page1{
+    background-image: url(../img/page1png.png);
+}
+.page .page2{
+    height: 100px;
+    width: auto;
+    float: right;
+    margin-right: 91px;
+}
+.page .page2 a{
+    font-size: 17px;
+    color: #333;
+    line-height: 100px;
+    margin-left: 22px;
+}
+.page .page3{
+    height:100px;
+    width: 297px;
+    float: right;
+}
+.page .page2 a:hover{
+    color: #FF6700;
+}
+.page .page3 button{
+    width: 50px;
+    height: 50px;
+    float: right;
+    border: 1px solid #E0E0E0;
+    margin-top: 25px;
+}
+.page .page3 input{
+    border: 1px solid #E0E0E0;
+    margin-top: 25px;
+}
+/* 广告 */
+  .open{
+      width: 1226px;
+      height: 120px;
+      margin: 0 auto;
+      margin-top:14px; 
+  }
+
+
+
+
+
+
+.zhengti{
+    background-color: #F5F5F5;
+}
+
+/* 手机开始 */
 *{
     margin: 0;
     padding: 0;
@@ -27,16 +146,50 @@
 .phone .bottom{
     height: 614px;
     width: 100%;
-    background-color: red;
 }
-.phone .bottom .on{
-    width: 234px;
+.phone .bottom .box{
     height: 300px;
-    background-color: green;
+    width: 234px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    background-color: #FEFEFE;
     float: left;
-    margin-right:14px;
-    margin-bottom: 
 }
+.phone .bottom .box1{
+    height: 614px;
+    width: 234px;
+}
+.phone .bottom .box2{
+    margin-right: 0;
+}
+.phone .bottom .box .tbn img{
+    display: block;
+    margin: 18px auto;
+}
+.phone .bottom .box .tbn div{
+    width: 100%;
+    height:21px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-top: 34px;
+}
+.phone .bottom .box  p{
+    width: 100%;
+    height:18px;
+    text-align: center;
+    font-size: 12px;
+    color:#B0B0B0;
+}
+.phone .bottom .box pre{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    color: red;
+    margin-top: 19px;
+}
+/* 手机结束 */
+
 
 /* 家电整体 */
 *{
@@ -62,16 +215,20 @@ a{
     width: auto;
     line-height: 58px;
     background-color: #F5F5F5;
+    box-sizing: border-box;
 }
+.big .top .cool{
+    font-size: 21px;
+}
+
 .big .top .hot{
     float: right;
     margin-left: 30px;
-    margin-bottom: 5px;
 }
 .big .top .hot:hover{
     color: #ff6700;
     cursor:pointer;
-    border-bottom: #FF6700 solid 2px;
+    border-bottom: #FF6700 solid 1px;
 }
 /* 家电bottom */
 .big .bottom{
@@ -109,6 +266,15 @@ a{
     margin-bottom: 14px;
     box-sizing: border-box;
 }
+.big .bottom .right .box p{
+    display: block;
+    width: 214px;
+    height: 18px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #B7B7CC;
+}
 .big .bottom .right .box a span{
     display: block;
     text-align: center;
@@ -119,16 +285,7 @@ a{
     box-sizing: border-box;
     margin-top: 6px;
 }
-.big .bottom .right .box a p{
-    display: block;
-    width: 214px;
-    height: 18px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 12px;
-    color: #B7B7CC;
-}
-.big .bottom .right .box a div{
+.big .bottom .right .box div{
     display: block;
     width: 214px;
     height: 21px;
@@ -144,56 +301,60 @@ a{
     height: 143px;
 }
 .big .bottom .right .box3{
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 .big .bottom .right .box img{
     display: block;
     margin: 0 auto;
 }
 /* 第8张 */
-.big .bottom .right .box.box4 .key img{
-    float: right;
-    width: auto;
-    height: auto;
-    margin-top: 31px;
-}
-.big .bottom .right .box.box4 .key{
-    width: 117px;
+.big .bottom .right .over{
     height: 143px;
-    float: left;
+    width: 234px;
 }
-.big .bottom .right .box.box4 .keyarea{
+
+.big .bottom .right .over img{
+    display: block;
+    width: 80px;
+    height: 80px;
     float: right;
-}
-.big .bottom .right .box.box4 .key span{
-    margin-left: 32px;
+    color: #FF6700;
     font-size: 14px;
-    color: #333;
+    margin-left: 20px;
 }
-.big .bottom .right .box.box4 .key div{
-    margin-top: 15px;
-    margin-left: 32px;
-    font-size: 14px;
-    color:#FF6700;
-}
+
+
 /* 第九张 */
-.big .bottom .right .box.box4.box5 img{
-    width: auto;
-    height: auto;
-    margin-bottom: 48px;
-    float: right;
-}
-.big .bottom .right .box.box4.box5 .small{
-    width: 118px;
-    height: 86px;
-    float: left;
-}
-.big .bottom .right .box.box4.box5 .small span{
-    margin-left: 32px;
+
+.big .bottom .righ .go span{
     font-size: 18px;
 }
-.big .bottom .right .box.box4.box5 .small div{
-    margin-left: 32px;
-    font-size: 13px;
+.big .bottom .right .go .yes{
+    float: right;
+    height: auto;
+    width: auto;
+}
+
+#nine{
+    width: 85px;
+    height: 50px;
+    float: left;
+}
+#nine b{
+    font-size: 18px;
+    color: #333;
+}
+#nine span{
+    color: #757575;
+}
+
+#ninepng{
+    width: 100px;
+    height: 98px;
+    float: right;
 }
 /* 家电结束 */
+/* 为你推荐 */
+.zhengti .big .ten{
+    
+}
