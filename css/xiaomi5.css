@@ -27,49 +27,16 @@
 .phone .bottom{
     height: 614px;
     width: 100%;
+    background-color: red;
 }
-.phone .bottom .box{
+.phone .bottom .on{
+    width: 234px;
     height: 300px;
-    width: 234px;
-    margin-right: 14px;
-    margin-bottom: 14px;
+    background-color: green;
     float: left;
+    margin-right:14px;
+    margin-bottom: 
 }
-.phone .bottom .box1{
-    height: 614px;
-    width: 234px;
-}
-.phone .bottom .box2{
-    margin-right: 0;
-}
-.phone .bottom .box .tbn img{
-    display: block;
-    margin: 18px auto;
-}
-.phone .bottom .box .tbn div{
-    width: 100%;
-    height:21px;
-    text-align: center;
-    font-size: 14px;
-    color: #333;
-    margin-top: 34px;
-}
-.phone .bottom .box .tbn p{
-    width: 100%;
-    height:18px;
-    text-align: center;
-    font-size: 12px;
-    color:#D9C1B7;
-}
-.phone .bottom .box .tbn pre{
-    text-align: center;
-    font-size: 14px;
-    margin-top: 0;
-    color: red;
-    margin-top: 19px;
-}
-
-
 
 /* 家电整体 */
 *{
@@ -184,48 +151,48 @@ a{
     margin: 0 auto;
 }
 /* 第8张 */
-.big .bottom .right .box4 .key img{
+.big .bottom .right .box.box4 .key img{
     float: right;
     width: auto;
     height: auto;
     margin-top: 31px;
 }
-.big .bottom .right .box4 .key{
+.big .bottom .right .box.box4 .key{
     width: 117px;
     height: 143px;
     float: left;
 }
-.big .bottom .right .box4 .keyarea{
+.big .bottom .right .box.box4 .keyarea{
     float: right;
 }
-.big .bottom .right .box4 .key span{
+.big .bottom .right .box.box4 .key span{
     margin-left: 32px;
     font-size: 14px;
     color: #333;
 }
-.big .bottom .right .box4 .key div{
+.big .bottom .right .box.box4 .key div{
     margin-top: 15px;
     margin-left: 32px;
     font-size: 14px;
     color:#FF6700;
 }
 /* 第九张 */
-.big .bottom .right .box5 img{
+.big .bottom .right .box.box4.box5 img{
     width: auto;
     height: auto;
     margin-bottom: 48px;
     float: right;
 }
-.big .bottom .right .box5 .small{
+.big .bottom .right .box.box4.box5 .small{
     width: 118px;
     height: 86px;
     float: left;
 }
-.big .bottom .right .box5 .small span{
+.big .bottom .right .box.box4.box5 .small span{
     margin-left: 32px;
     font-size: 18px;
 }
-.big .bottom .right .box5 .small div{
+.big .bottom .right .box.box4.box5 .small div{
     margin-left: 32px;
     font-size: 13px;
 }
