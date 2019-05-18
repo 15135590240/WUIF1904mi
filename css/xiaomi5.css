@@ -100,6 +100,114 @@
     border: 1px solid #E0E0E0;
     margin-top: 25px;
 }
+/* 轮播图 */
+ .lun{
+     height: 460px;
+     width: 1226px;
+     margin: 0 auto;
+     position: relative;
+ }
+ .lun .lung{
+     height: 100%;
+     width: 100%;
+     background-color: red;
+ }
+ .lun .lung a{
+     position: absolute;
+     top: 0;
+     right: 0;
+
+ }
+ /* 左侧导航栏 */
+ .lun .leftbox{
+     width: 234px;
+     height: 460px;
+     box-sizing: border-box;
+     background-color:rgba(0, 0, 0, 0.6) ;
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     color: #F2F3F3;
+     font-size: 14px;
+ }
+ .lun .leftbox .lefttyn:hover{
+     background-color: #FF6902;
+     cursor:pointer;
+ }
+ .lun .lefttyn{
+     width: 234px;
+     height: 42px;
+     background-color: rgba(0, 0, 0, 0.6);
+     box-sizing: border-box;
+     padding-left: 30px;
+     line-height: 42px;
+     position: relative;
+ }
+ .lun .lefttyn img{
+     position: absolute;
+     top: 13px;
+     right: 24px;
+
+ }
+
+ /* 左箭头 */
+ .lun .zuojian{
+     width: 41px;
+     height: 69px;
+     background-color: #757575;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+     left: 234px;
+ }
+ /* 右箭头 */
+ .lun .youjian{
+    width: 41px;
+    height: 69px;
+    background-color: #757575;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0px;
+}
+/* 轮播点 */
+.lun .dian{
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    right: 35px;
+    bottom: 26px;
+
+}
+.lun ul{
+    width: 6px;
+    height: 6px;
+    border: 2px solid #757575;
+    margin: 0 5px;
+    float:  left;
+    border-radius: 50%;
+}
+
+ /* <!-- 轮播图下小图 --> */
+ .tu{
+     width: 1226px;
+     height: 170px;
+     margin: 0 auto;
+     margin-top: 14px;
+ }
+ .tu .mifen{
+     width: 234px;
+     height: 170px;
+     background-color: #333;
+ }
+ .tu img{
+     float: right;
+     margin-left: 14px;
+ }
 /* 广告 */
   .open{
       width: 1226px;
@@ -356,5 +464,286 @@ a{
 /* 家电结束 */
 /* 为你推荐 */
 .zhengti .big .ten{
-    
+    width: 1226px;
+    height:314px;
+}
+.zhengti .big .ten img{
+    margin-left: 47px;
+    margin-top: 40px;
+    display: block;
+}
+.zhengti .big .ten .eleven{
+    width:234px;
+    height: 280px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    float: left;
+    box-sizing: border-box;
+}
+.zhengti .big .ten .eleven1{
+    margin-right: 0;
+    float: right;
+}
+.zhengti .big .ten .eleven .wow{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.zhengti .big .ten .eleven .wew{
+    text-align: center;
+    color: #FF6700;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.zhengti .big .ten .eleven .wrw{
+    text-align: center;
+    color:#B0B0B0;
+    font-size: 14px;
+    margin-top: 15px;
+}
+/* 为你推荐 */
+.big .at{
+    height: 415px;
+    width: auto;
+}
+.big .at .et{
+    width: 296px;
+    height: 415px;
+    float: left;
+    margin-right: 14px;
+    background-color: #FEFEFE;
+}
+.big .at .et1{
+    margin-right: 0;
+    float: right;
+}
+.big .at .et .why{
+    width: 240px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 28px;
+    color: #333;
+    font-size: 14px;
+}
+.big .at .et p{
+    font-size: 13px;
+    color: #B0B0B0;
+    margin-left: 29px;
+}
+.big .at .et .low{
+    color: #333;
+    font-size: 14px;
+    margin-left: 29px;
+}
+.big .at .et .low1{
+    color: #E2E2E2;
+}
+.big .at .et .low2{
+    color: #FF8A3B;
+    font-size: 14px;
+}
+/* /* 内容 . */
+.big .tushu{
+    width: 1240px;
+    height: 420px;
+}
+/* 第一张 */
+.big .tushu .tushu1{
+    width: 296px;
+    height: 420px;
+    float: left;
+    background-color: #FEFEFE;
+    margin-right: 14px;
+    border-top: 1px solid #FFD890;
+    padding-top: 45px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.big .tushu .tushu1 li{
+    cursor: pointer;;
+}
+
+.big .tushu .tushu1 p{
+    text-align: center;
+    color: #FFD890;
+    margin-bottom: 18px;
+}
+.big .tushu .tushu1 .wenzi{
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    color: #333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 89px;
+}
+.big .tushu .halibote{
+    width: 200px;
+    margin: 0 48px 10px 48px;
+    height: 40px;
+}
+.big .tushu .tushu1 .wenzi2{
+    display: block;
+    text-align: center;
+    width: 191.98px;
+    height: 37px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #B0B0B0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 122px;
+}
+.big .tushu .tushu1 .wenzi3{
+    font-size: 13px;
+    display:block;
+    text-align: center;
+    color: #333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 172px;
+}
+.big .tushu .tushu1 img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 205px;
+
+}
+/* 第二张 */
+.big .tushu .tushu2{
+    width: 296px;
+    height: 420px;
+    float: left;
+    background-color: #FEFEFE;
+    margin-right: 14px;
+    border-top: 1px solid #8CC85B;
+    padding-top: 45px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.big .tushu .tushu2 p{
+    text-align: center;
+    color: #8CC85B;
+    margin-bottom: 18px;
+}
+.big .tushu .tushu2 .wenzi{
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    color: #333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 89px;
+}
+/* 第三张 */
+.big .tushu .tushu3{
+    border-top: 1px solid #FF6700;
+}
+.big .tushu .tushu3 p{
+    color: #FF6700;
+}
+/* 第四张 */
+.big .tushu .tushu4{
+    border-top: 1px solid #2196F3;
+}
+.big .tushu .tushu4 p{
+    color: #2196F3;
+}
+/* 轮播点 */
+.big .tushu .tushu1 .lunbodian{
+    height: 30px;
+    width: 102px;
+    margin-top: 165px;
+    margin-left: 99px;
+}
+.big .tushu .tushu1 .lunbodian li{
+    height: 6px;
+    width: 6px;
+    border: 2px;
+    background-color: #B0B0B0;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 36px;
+}
+.big .tushu .tushu1 .lunbodian .lin{
+    margin-right: 0;
+}
+/* 轮播点2*/
+.big .tushu .tushu1 .lunbodian2{
+    height: 30px;
+    width: 136px;
+    margin-top: 265px;
+    margin-left: 81px;
+
+}
+.big .tushu .tushu1 .lunbodian2 li{
+    height: 6px;
+    width: 6px;
+    border: 2px;
+    background-color: #B0B0B0;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 36px;
+}
+.big .tushu .tushu1 .lunbodian2 .lin{
+    margin-right: 0;
+}
+/* 雷军讲话 */
+.big .top .quanbu{
+    float: right;
+}
+.big .leijun{
+    width: 1226px;
+    height: 299px;
+}
+.big .leijun .wangyuan{
+    width: 296px;
+    height: 285px;
+    margin-bottom: 14px;
+    background-color: #FEFEFE;
+    float: left;
+    margin-right: 14px;
+}
+.big .leijun .wangyuan2{
+    margin-right: 0;
+}
+.big .leijun .wangyuana{
+    font-size: 15px;
+    color: #333;
+    display: block;
+    text-align: center;
+    margin-top: 33px;
+}
+.big .leijun .wangyuan p{
+    font-size: 12px;
+    text-align: center;
+    color: #B0B0B0;
+}
+.kuaiwanla{
+    height: 272px;
+    width: auto;;
+    background-color: green;
+    margin-top: 60px;
+    margin: 0 auto;
+
 }
