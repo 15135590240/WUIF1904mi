@@ -415,7 +415,7 @@
     display: block;
     margin: 18px auto;
 }
-.phone .bottom .box .tbn div{
+.phone .bottom .box .tbn .ak{
     width: 100%;
     height:21px;
     text-align: center;
@@ -529,10 +529,16 @@ a{
     box-sizing: border-box;
     position: relative;
 }
+.big .bottom .right .box .pig{
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+}
 .big .bottom .right .box .yc{
     width: 234px;
     height: 80px;
     padding: 10px 20px 10px;
+    box-sizing: border-box;
     background-color: #ff6700;
     position: absolute;
     bottom: -80px;
@@ -562,6 +568,9 @@ a{
     text-align: center;
     font-size: 12px;
     color: #B7B7CC;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .big .bottom .right .box a span{
     display: block;
@@ -572,8 +581,12 @@ a{
     color: #333;
     box-sizing: border-box;
     margin-top: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
 }
-.big .bottom .right .box div{
+.big .bottom .right .box .jdak{
     display: block;
     width: 214px;
     height: 21px;
@@ -597,54 +610,69 @@ a{
     height: 143px;
     width: 234px;
 }
+.big .bottom .right .over .ap{
+    width: 94px;
+    height: 20.8px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+    margin-left: 33px;
+    text-align: left;
+    
 
+}
+.big .bottom .right .over .ad{
+    font-size: 12px;
+    color: #ff6700;
+    margin-top: 5px;
+    text-align: left;
+}
 .big .bottom .right .over img{
     display: block;
     width: 80px;
     height: 80px;
     float: right;
-    color: #FF6700;
-    font-size: 14px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
 /* 第九张 */
 
-.big .bottom .righ .go{
+.big .bottom .right .go{
     overflow: hidden;
+    position: relative;
 }
-.big .bottom .righ .go span{
-    font-size: 18px;
+.big .bottom .right .go .nine .adc{
+    font-size: 17px;
+    width: 94px;
+    height: 20px;
+    color: #333;
+    text-align: left;
+    margin-left: 33px;
+    margin-top: 15px;
 }
-.big .bottom .right .go .yes{
-    float: right;
+.big .bottom .right .go .nine{
+    margin: 0;
+}
+.big .bottom .right .go .nine .abb{
+    width: 94px;
+    height: 17.6px;
+    text-align: left;
+    margin-left: 33px;
+    margin-top: 5px;
+}
+.big .bottom .right .go img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     height: 88px;
     width: 93px;
-}
-
-#nine{
-    width: 94px;
-    height: 44px;
-    margin-left: 30px;
-    text-align: 0;
-    margin-top: 20px;
-    position: absolute;
-}
-#nine b{
-    font-size: 18px;
-    color: #333;
-}
-#nine span{
-    color: #757575;
-    font-size: 12px;
-}
-
-#ninepng{
-    width: 100px;
-    height: 98px;
-    float: right;
-    margin-top: -1px;
 }
 /* 家电结束 */
 /* 为你推荐 */
@@ -683,6 +711,9 @@ a{
     margin-top: 15px;
     text-align: center;
     font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .zhengti .big .ten .eleven .wew{
     text-align: center;
@@ -1207,7 +1238,7 @@ a{
     width: 82px;
     height: 450px;
     position: fixed;
-    top: 338px;
+    top: 190px;
     right: 0;
 }
 .dada .dada1{
