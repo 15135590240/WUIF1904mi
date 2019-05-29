@@ -133,7 +133,7 @@
 }
 .page .page3 button{
     width: 50px;
-    height: 51px;
+    height: 52px;
     float: right;
     border: 1px solid #E0E0E0;
     margin-top: 25px;
@@ -581,6 +581,7 @@ a{
     color: #333;
     box-sizing: border-box;
     margin-top: 6px;
+    padding: 0 20px 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -682,7 +683,7 @@ a{
 }
 .zhengti .big .ten img{
     margin-left: 47px;
-    margin-top: 40px;
+    margin-top: 15px;
     display: block;
 }
 .zhengti .big .ten .eleven{
@@ -695,7 +696,12 @@ a{
     box-sizing: border-box;
 }
 .zhengti .big .ten .eleven .a1{
+    display: block;
+    padding: 0 30px 0;
     color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .zhengti .big .ten .eleven:hover{
     transform: translate(0,-5px);
@@ -1170,12 +1176,13 @@ a{
     display: block;
     height: 30px;
     width: 120px;
-    margin: 0 auto;
+    margin: 30px auto;
     border: 1px solid #ff6700;
     color: #ff6700;
     font-size: 12px;
     text-align: center;
     line-height: 30px;
+    box-sizing: border-box;
 }
 .bangzhu .bangzhuleft .xiaozi2 a:hover{
     background-color: #FF6700;
@@ -1244,6 +1251,7 @@ a{
 .dada .dada1{
     width: 82px;
     height: 90px;
+    background-color: #fff;
     border: 1px solid #f5f5f5;
     padding-top: 20px;
     box-sizing: border-box;
